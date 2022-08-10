@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+/* Pozicionálás */
+
+#entire-content {
+    width: 400px;
+    max-width: calc(100vw - 10px);
+    border-radius: 15px;
+    background-color: hsla(0,0%,100%,0.40);
+    opacity: 1;
+    -webkit-box-shadow: 20px 22px 36px 2px;
+    box-shadow: 20px 22px 36px 2px;
+    background-image: -webkit-linear-gradient(270deg,rgba(98,124,102,1.00) 0%,rgba(37,90,71,1.00) 16.58%,rgba(66,168,100,1.00) 100%,rgba(170,55,55,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(98,124,102,1.00) 0%,rgba(37,90,71,1.00) 16.58%,rgba(66,168,100,1.00) 100%,rgba(170,55,55,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(98,124,102,1.00) 0%,rgba(37,90,71,1.00) 16.58%,rgba(66,168,100,1.00) 100%,rgba(170,55,55,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(98,124,102,1.00) 0%,rgba(37,90,71,1.00) 16.58%,rgba(66,168,100,1.00) 100%,rgba(170,55,55,1.00) 100%);
+    height: auto;
+    margin: auto;
+    padding-bottom: 89px;
+    padding-top: 42px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    color: hsla(0,0%,0%,1.00);
+    font-style: normal;
+    font-weight: 100;
+	background: url('img/nature-6573288.svg') no-repeat center center fixed;
+    background-size: cover;
+}
+li {
+    display: inline;
+
+}
+
+img {
+    width: 150px;
+    height: auto;
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 30px 1px;
+}
+
+.name-headline {
+    text-align: center;
+    padding-top: 23px;
+}
+footer {
+    text-align: center;
+    padding-bottom: 2px;
+    padding-top: 25px;
+    margin-top: 3px;
+    margin-bottom: -70px;
+}
+
+h2 {
+    font-style: italic;
+}
+h1 {
+    font-size: 1.5em;
+}
+ul {
+    list-style-type: none;
+}
+
+.fa-duotone {
+    color: hsla(0,0%,0%,1.00);
+}
+.fa-brands {
+    color: hsla(0,0%,0%,1.00);
+}
+.fa-solid {
+    color: hsla(0,0%,0%,1.00);
+}
+.fa-duotone:hover {
+    color: rgb(223, 18, 18);
+}
+.fa-brands:hover {
+    color: rgb(223, 18, 18);
+}
+.fa-solid:hover {
+    color: rgb(223, 18, 18);
+}.about {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 26px;
+}
+.content {
+    background-color: hsla(150,80%,18%,1.00);
+    color: rgba(255,255,255,1.00);
+    text-align: left;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 0px;
+    padding-bottom: 28px;
+    margin-top: 20px;
+    margin-bottom: 9px;
+}
+img:hover {
+    transform: scale(1.3);
+    transition: all 0.5s ease-in-out;
+    filter: grayscale(90%);
+}
