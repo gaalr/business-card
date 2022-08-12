@@ -111,6 +111,8 @@ ul {
     padding-bottom: 28px;
     margin-top: 20px;
     margin-bottom: 9px;
+    box-shadow: 10px 10px 30px 1px hsla(0,0%,0%,1.00);
+    -webkit-box-shadow: 10px 10px 30px 1px hsla(0,0%,0%,1.00);
 }
 img:hover {
     transform: scale(1.3);
